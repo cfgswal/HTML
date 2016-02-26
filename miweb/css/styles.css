@@ -1,0 +1,15 @@
+body{
+    background-image: url("../Imagenes/fondo.jpg");
+    background-repeat: space;
+}
+h1 {
+    font-size: 70px;
+    font-family: "Apple Chancery";
+
+}
+p{
+    font-family: "Apple Chancery";
+    color: rgba(99, 12, 166, 1);
+}
+
+
