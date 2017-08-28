@@ -9,10 +9,10 @@
 <body>
 
 <   B   > TABLA DE MULTIPLICAR> </B>
-<  Tabla   bordear = "1"  >
-<    ?php 
+<  Table   bordear = "1"  >
+<?php 
 
-Para ($ cabecera = 1; $ cabecera <= 10; $ cabecera ++){
+for ($ cabecera = 1; $ cabecera <= 10; $ cabecera ++){
 echo ("<th>");
 echo $cabecera;
 echo ("</th>");
@@ -25,13 +25,13 @@ echo $x;
 echo ("</th>");
 for($y=1;$y<=10;$y++){
 $multiplicacion = $x*$y;
-Echo ( "<td>" );
-Echo ( "  $ multiplicacion);multiplicac
+echo ( "<td>" );
+echo ( "  $ multiplicacion);multiplicac
 echo ("</td>");
 }
 echo ("</tr>");
 }
 ?>
-</ Table>
-</ Body>
+</Table>
+</body>
 </html>
